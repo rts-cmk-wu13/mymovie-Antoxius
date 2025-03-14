@@ -1,0 +1,7 @@
+footer{
+    margin-block-start: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-block-end: 2rem;
+    background-color: var();
+}

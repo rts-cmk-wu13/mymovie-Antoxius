@@ -1,0 +1,11 @@
+.movies1__list{
+    display: flex;
+    overflow-x: scroll;
+    gap: 2rem;
+    padding-inline: 2rem;
+}
+
+.movies1__card > img{
+    height: 30rem;
+    border-radius: 10px;
+}
