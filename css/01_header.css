@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+}
+
+.nowShowing{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.movie-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.movie-video__container{
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+}
+
+.detail__header{
+    display: none;
+    display: block;
+    width: 100%;
+}
+
+.movie-detail > div {
+    margin-inline: 2rem;
+}
+
+
+
+
+

@@ -1,0 +1,16 @@
+.movies2__list{
+    margin-inline: 2rem;
+}
+
+.movies2__popular .movies1__list{
+    padding: 2rem 2rem;
+}
+
+.movies2__popular{
+    padding: 1rem 2rem;
+}
+
+.movies2__card > a > img{
+    width: 50%;
+}
+

@@ -1,0 +1,91 @@
+.bold{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.padding1{
+    padding: 1rem;
+}
+
+.padding2{
+    padding: 2rem;
+}
+.padding-top1{
+    padding-top: 1rem;
+}
+.padding-top2{
+    padding-top: 2rem;
+}
+
+.padding-block1{
+    padding-block: 1rem;
+}
+
+.padding-block2{
+    padding-block: 2rem;
+}
+
+.margin-inline1{
+    margin-inline: 1rem;
+}
+
+.margin-inline2{
+    margin-inline: 2rem;
+}
+
+.flex--row{
+    display: flex;
+}
+
+.flex--column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex--around{
+    display: flex;
+    justify-content: space-around;
+}
+.flex--between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gap1{
+    display: flex;
+    gap: 1.5rem;
+}
+
+ /*     CLICKABLE CARD  utility class    */
+ /* .clickable-card skal være på den yderste container som du skal kunne klikke på */
+ .clickable-card {
+    position: relative;
+}
+/* læs op på ::before og content */
+.clickable-card a::before {
+    content: "";
+    position: absolute;
+    z-index: 100;
+    inset: 0;
+}
+ 
+.clickable-card:focus-within a:focus {
+    box-shadow: none;
+    outline: none;
+    /* Width and color values */
+}
+ 
+.clickable-card:focus-within {
+    box-shadow: 0 0 0 1px blue;
+}  
+
+.inline{
+    display: inline;
+}
+
+.absolute{
+    position: absolute;
+}
+ 
+/* ------------------ */
+
