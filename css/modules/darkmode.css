@@ -19,6 +19,7 @@ textarea {
   display: inline-block;
   width: 50px;
   height: 25px;
+  margin-left: auto;
 }
 
 /* Skjuler standard-checkbox */
@@ -53,5 +54,16 @@ input:checked + .slider {
 }
 
 input:checked + .slider::before {
-  transform: translateX(24px);
+  transform: translateX(15px);
+}
+
+.switch-container{
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+.switch-container button{
+  border: none;
+  color: white;
+  cursor: pointer;
 }

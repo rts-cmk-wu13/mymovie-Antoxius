@@ -56,6 +56,11 @@
     gap: 1.5rem;
 }
 
+.gap2{
+    display: flex;
+    gap: 10%;
+}
+
  /*     CLICKABLE CARD  utility class    */
  /* .clickable-card skal være på den yderste container som du skal kunne klikke på */
  .clickable-card {
@@ -85,6 +90,15 @@
 
 .absolute{
     position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
 }
  
 /* ------------------ */

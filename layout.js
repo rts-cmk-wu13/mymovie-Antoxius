@@ -3,15 +3,16 @@ divElm.id = "root";
 
 divElm.innerHTML = `
 <header class="header-index">
-  <h1 class="header__title">MyMovies</h1>
-  <div class="switch-container">
-    <label class="switch" id="switch">
-      <input type="checkbox">
-      <span class="slider round"></span>
-    </label>
-  </div>
-</header>
-  <main>
+    </header>
+    <main>
+      <div class="switch-container gap2 space-between absolute">
+        <button onclick="history.back()">Back</button>
+        <label class="switch" id="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+
 
   </main>
   <footer>

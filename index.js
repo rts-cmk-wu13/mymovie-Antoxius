@@ -19,7 +19,6 @@ fetch(urlShowing, optionsShowing)
 
     <div class="flex--between padding1">
         <h2>Now showing</h2>
-        <button>See more</button>
     </div>
     
     <div class="movies1__list">
